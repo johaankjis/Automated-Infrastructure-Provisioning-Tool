@@ -21,7 +21,7 @@ export function DashboardHeader() {
       })
       router.push("/login")
     } catch (error) {
-      console.error("[v0] Logout error:", error)
+      console.error("[] Logout error:", error)
     }
   }
 
